@@ -313,7 +313,7 @@ a {
         }
         #content2>article>.table>.tab>.t1{
             /* border: 2px solid black; */
-            width: 25%;
+            width: 75%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -340,7 +340,7 @@ a {
         }
     }
     
-    @media(max-width:950px){
+    @media ((max-width:950px) and (min-width:500px)){
         #content2>article>.table>.tab{
             width: 80%;
             display: flex;
